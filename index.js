@@ -3,9 +3,8 @@ const Axios = require('axios');
 const RecordsFactory = require('./Modules/Records');
 
 class Client {
-    constructor(apiKey, errorHandler = (err) => {}) {
+    constructor(apiKey) {
         this.apiKey = apiKey;
-        this.errorHandler = errorHandler;
 
         this.Axios = Axios.create({
             baseURL: "https://dns.hetzner.com/api/v1/",

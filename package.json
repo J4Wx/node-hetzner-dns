@@ -1,6 +1,6 @@
 {
   "name": "hetzner-dns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client for interacting with the Hetzner DNS API",
   "main": "index.js",
   "scripts": {
