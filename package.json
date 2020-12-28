@@ -1,6 +1,6 @@
 {
   "name": "hetzner-dns",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Client for interacting with the Hetzner DNS API",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/J4Wx/node-hetzner-dns/issues"
   },
-  "homepage": "https://github.com/J4Wx/node-hetzner-dns#readme"
+  "homepage": "https://github.com/J4Wx/node-hetzner-dns#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
